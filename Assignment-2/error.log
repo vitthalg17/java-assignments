@@ -1,0 +1,12 @@
+Aug 22, 2026 4:06:54 PM Q09 main
+SEVERE: Invalid age entered
+InvalidAgeException: You need to be 18 or above to access this program!!.
+	at Q09.checkAge(Q09.java:16)
+	at Q09.main(Q09.java:34)
+
+Aug 22, 2026 4:10:29 PM Q09 main
+SEVERE: Invalid age entered
+InvalidAgeException: You need to be 18 or above to access this program!!.
+	at Q09.checkAge(Q09.java:16)
+	at Q09.main(Q09.java:34)
+
