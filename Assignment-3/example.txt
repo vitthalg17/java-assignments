@@ -1,0 +1,3 @@
+Buffered streams keep a block of data in memory.
+So the disk is touched fewer times.
+That makes the same work finish faster.
