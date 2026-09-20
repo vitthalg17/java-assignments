@@ -9,11 +9,11 @@ public class Q19 {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter("example.txt"));
 
-            writer.write("Buffered streams keep a block of data in memory.");
+            writer.write("The council had warned him, and he had stopped listening.");
             writer.newLine();
-            writer.write("So the disk is touched fewer times.");
+            writer.write("Ash fell on the landing platform like grey snow.");
             writer.newLine();
-            writer.write("That makes the same work finish faster.");
+            writer.write("Whatever was left of the friendship stayed on that shore.");
             writer.newLine();
 
             writer.close();
