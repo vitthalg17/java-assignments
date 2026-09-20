@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class Q18 {
     public static void main(String[] args) {
-        String text = "The fire between them burned hotter than the planet they stood on.";
+        String text = "Only a Sith deals in absolutes.";
 
         try {
             FileWriter writer = new FileWriter("example.txt");

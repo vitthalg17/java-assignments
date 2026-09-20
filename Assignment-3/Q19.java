@@ -9,11 +9,11 @@ public class Q19 {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter("example.txt"));
 
-            writer.write("The council had warned him, and he had stopped listening.");
+            writer.write("Do or do not. There is no try.");
             writer.newLine();
-            writer.write("Ash fell on the landing platform like grey snow.");
+            writer.write("The Force will be with you. Always.");
             writer.newLine();
-            writer.write("Whatever was left of the friendship stayed on that shore.");
+            writer.write("I have a bad feeling about this.");
             writer.newLine();
 
             writer.close();
