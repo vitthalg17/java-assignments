@@ -29,7 +29,7 @@ public class Q43 {
 
         System.out.println("-------------------------");
 
-        CardPayment cp = new CardPayment(500);
+        Payment cp = new CardPayment(500);
         cp.pay();
     }
 }
