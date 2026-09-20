@@ -4,15 +4,15 @@ import java.io.RandomAccessFile;
 public class Q24 {
     public static void main(String[] args) {
         try {
-            RandomAccessFile file = new RandomAccessFile("seats.txt", "rw");
+            RandomAccessFile file = new RandomAccessFile("roster.txt", "rw");
 
-            file.writeBytes("SEAT A1 EMPTY  SEAT A2 EMPTY  SEAT A3 EMPTY");
+            file.writeBytes("JEDI OBIWAN ALIVE  JEDI ANAKIN ALIVE  SITH SIDIOUS ALIVE");
 
             file.seek(0);
             System.out.println("First write  : " + file.readLine());
 
-            file.seek(8);
-            file.writeBytes("BOOKED");
+            file.seek(31);
+            file.writeBytes("FALLEN");
 
             file.seek(0);
             System.out.println("After update : " + file.readLine());

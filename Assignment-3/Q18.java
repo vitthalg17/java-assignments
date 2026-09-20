@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class Q18 {
     public static void main(String[] args) {
-        String text = "Character streams move data one character at a time.";
+        String text = "The fire between them burned hotter than the planet they stood on.";
 
         try {
             FileWriter writer = new FileWriter("example.txt");
